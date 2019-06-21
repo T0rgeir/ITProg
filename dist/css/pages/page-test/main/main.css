@@ -1,0 +1,212 @@
+.wrapper .main {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 1; }
+  .wrapper .main .main-content {
+    width: 93%;
+    min-height: none;
+    min-height: 739px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .wrapper .main .main-content .main-content-items {
+      width: 100%;
+      min-height: none;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .wrapper .main .main-content .main-content-items .main-content-navpanel {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px; }
+        .wrapper .main .main-content .main-content-items .main-content-navpanel .main-content-navpanel-item {
+          width: 95%;
+          height: 50px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          border-top: 10px solid #444;
+          background-color: #f0f0f0;
+          -webkit-box-shadow: 0 5px 0 0 #ccc;
+                  box-shadow: 0 5px 0 0 #ccc;
+          -webkit-border-radius: 15px;
+                  border-radius: 15px; }
+      .wrapper .main .main-content .main-content-items .main-content-items-blocks {
+        width: 100%;
+        min-height: none;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        margin-top: 30px; }
+        .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock {
+          width: 200px;
+          height: 350px;
+          margin: 0 50px 50px 0;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+          background-color: #444;
+          border-top: 5px solid #444;
+          -webkit-border-radius: 15px;
+                  border-radius: 15px; }
+          .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock:hover {
+            cursor: pointer;
+            -webkit-transform: scale(0.95);
+                -ms-transform: scale(0.95);
+                    transform: scale(0.95);
+            -webkit-box-shadow: 0 0 100px 0 #444;
+                    box-shadow: 0 0 100px 0 #444; }
+          .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f0;
+            -webkit-border-top-left-radius: 15px;
+                    border-top-left-radius: 15px;
+            -webkit-border-top-right-radius: 15px;
+                    border-top-right-radius: 15px; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-1 {
+              background-image: url("../../../../img/UI-Items/main/html-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-2 {
+              background-image: url("../../../../img/UI-Items/main/css-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-3 {
+              background-image: url("../../../../img/UI-Items/main/js-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-4 {
+              background-image: url("../../../../img/UI-Items/main/nodejs-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-5 {
+              background-image: url("../../../../img/UI-Items/main/mysql-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-6 {
+              background-image: url("../../../../img/UI-Items/main/php-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-7 {
+              background-image: url("../../../../img/UI-Items/main/ruby-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-8 {
+              background-image: url("../../../../img/UI-Items/main/python-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-logo-9 {
+              background-image: url("../../../../img/UI-Items/main/c-logo.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 100px 100px;
+                      background-size: 100px 100px;
+              background-position: center;
+              -webkit-transition: 0.3s;
+              -o-transition: 0.3s;
+              transition: 0.3s; }
+          .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-text {
+            width: 100%;
+            height: 50px; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-text p {
+              margin: 0 auto;
+              margin-top: 15px;
+              width: 150px;
+              height: 30px;
+              font-size: 24px;
+              padding: 0;
+              text-align: center;
+              font-family: Play;
+              color: #fff; }
+          .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-undertext {
+            width: 100%;
+            height: 100px;
+            -webkit-border-bottom-left-radius: 15px;
+                    border-bottom-left-radius: 15px;
+            -webkit-border-bottom-right-radius: 15px;
+                    border-bottom-right-radius: 15px;
+            -webkit-box-shadow: 0 5px 0 0 #ccc;
+                    box-shadow: 0 5px 0 0 #ccc;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s; }
+            .wrapper .main .main-content .main-content-items .main-content-items-blocks .main-content-items-testblock .main-content-items-testblock-undertext p {
+              margin: 5px 0 0 0;
+              width: 200px;
+              height: 100px;
+              font-size: 16px;
+              padding: 0;
+              text-align: center;
+              font-family: Play;
+              color: #fff; }

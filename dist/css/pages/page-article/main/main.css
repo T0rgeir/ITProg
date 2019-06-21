@@ -1,0 +1,852 @@
+.wrapper .main {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 1; }
+  .wrapper .main .main-content {
+    width: 100%;
+    min-height: none; }
+    .wrapper .main .main-content .main-content-nav {
+      width: 93%;
+      margin: 0 auto;
+      margin-top: 50px; }
+      .wrapper .main .main-content .main-content-nav .main-content-nav-panel {
+        width: 100%;
+        height: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        border-top: 10px solid #444;
+        background-color: #f0f0f0;
+        -webkit-box-shadow: 0 5px 0 0 #ccc;
+                box-shadow: 0 5px 0 0 #ccc;
+        -webkit-border-radius: 15px;
+                border-radius: 15px; }
+        .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-search {
+          width: 32%; }
+          .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-search input[type=text] {
+            width: 80%;
+            height: 30px;
+            margin-left: 20px;
+            outline: none;
+            border: 0;
+            padding: 5px 5px 5px 30px;
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #444;
+            font-family: Play;
+            font-size: 18px;
+            color: #444;
+            font-weight: bold;
+            background-image: url("../../../../img/UI-Items/sidebar/item-search.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px 20px;
+                    background-size: 20px 20px;
+            background-position: 5px 10px;
+            -webkit-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-search input[type=text]:hover {
+              width: 88%;
+              padding: 5px 5px 5px 0;
+              background-image: url("../../../../img/UI-Items/sidebar/item-search-hover.png");
+              background-position: 370px 10px;
+              border-bottom: 2px solid #fff; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-search input[type=text]:focus {
+              width: 88%;
+              padding: 5px 5px 5px 0;
+              background-image: url("../../../../img/UI-Items/sidebar/item-search-focus.png");
+              background-position: 370px 10px;
+              border-bottom: 2px solid #f54747; }
+        .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options {
+          width: 10%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; }
+          .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element {
+            width: 30px;
+            height: 30px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #222;
+            border: 0;
+            -webkit-border-radius: 10px;
+                    border-radius: 10px;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+            -webkit-box-shadow: 0 2px 1px 0 #fff;
+                    box-shadow: 0 2px 1px 0 #fff; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element:nth-child(n+1):nth-child(-n+3):hover {
+              cursor: pointer;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              background-color: #ababab; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element:nth-child(1):hover {
+              background-image: url("../../../../img/UI-Items/main/item-3o-hover.png"); }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element:nth-child(2):hover {
+              background-image: url("../../../../img/UI-Items/main/item-2ob-hover.png"); }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element:nth-child(3):hover {
+              background-image: url("../../../../img/UI-Items/main/item-filterOb-hover.png"); }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element-3o {
+              background-image: url("../../../../img/UI-Items/main/item-3o.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 15px 15px;
+                      background-size: 15px 15px;
+              background-position: center;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element-2o {
+              background-image: url("../../../../img/UI-Items/main/item-2o.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 15px 15px;
+                      background-size: 15px 15px;
+              background-position: center;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s; }
+            .wrapper .main .main-content .main-content-nav .main-content-nav-panel .main-content-nav-panel-options .main-content-nav-panel-options-element-filter {
+              background-image: url("../../../../img/UI-Items/main/item-filter.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 15px 15px;
+                      background-size: 15px 15px;
+              background-position: center;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s; }
+    .wrapper .main .main-content .main-content-addnew {
+      width: 93%;
+      height: 150px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .wrapper .main .main-content .main-content-addnew .main-content-addnew-btn {
+        width: 60px;
+        height: 60px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        background-color: #444;
+        background-image: url("../../../../img/UI-Items/main/add.png");
+        -webkit-background-size: 32px 32px;
+                background-size: 32px 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        .wrapper .main .main-content .main-content-addnew .main-content-addnew-btn:hover {
+          cursor: pointer;
+          background-color: #f54747;
+          -webkit-transform: rotate(180deg) scale(1.2);
+              -ms-transform: rotate(180deg) scale(1.2);
+                  transform: rotate(180deg) scale(1.2); }
+    .wrapper .main .main-content .main-content-artcileitems, .wrapper .main .main-content .main-content-frarticle, .wrapper .main .main-content .main-content-myarticle {
+      width: 93%;
+      min-height: none;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .wrapper .main .main-content .main-content-artcileitems .article-cont, .wrapper .main .main-content .main-content-frarticle .article-cont, .wrapper .main .main-content .main-content-myarticle .article-cont {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item {
+          width: 400px;
+          height: 350px;
+          margin: 20px;
+          background-color: #f0f0f0;
+          -webkit-box-shadow: 0 5px 0 0 #ccc;
+                  box-shadow: 0 5px 0 0 #ccc;
+          -webkit-border-bottom-right-radius: 15px;
+                  border-bottom-right-radius: 15px;
+          -webkit-border-bottom-left-radius: 15px;
+                  border-bottom-left-radius: 15px; }
+          .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top {
+            width: 100%;
+            height: 200px;
+            border-top: 20px solid #444;
+            border-bottom: 20px solid #444; }
+            .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo {
+              position: relative;
+              z-index: 2;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              overflow: hidden;
+              width: 100%;
+              height: 200px;
+              -webkit-transition: 0.3s ease-out;
+              -o-transition: 0.3s ease-out;
+              transition: 0.3s ease-out; }
+              .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img {
+                -webkit-transition: all 0.2s ease-out;
+                -o-transition: all 0.2s ease-out;
+                transition: all 0.2s ease-out; }
+                .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img:hover, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img:hover, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-top .main-content-grid-items-elements-area-item-top-photo img:hover {
+                  -webkit-transform: scale(1.2);
+                      -ms-transform: scale(1.2);
+                          transform: scale(1.2);
+                  cursor: pointer; }
+          .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle {
+            width: 100%;
+            height: 110px; }
+            .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header {
+              width: 90%;
+              margin: 0 auto; }
+              .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header p, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header p, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-header p {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin: 0 auto;
+                font-family: Play;
+                font-size: 24px;
+                color: #f54747;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+                -o-text-overflow: ellipsis;
+                   text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap; }
+            .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text {
+              width: 90%;
+              margin: 0 auto; }
+              .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text p, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text p, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-middle .main-content-grid-items-elements-area-item-middle-text p {
+                width: 100%;
+                font-family: Play;
+                font-size: 18px;
+                color: #000;
+                -webkit-column-width: 90%;
+                   -moz-column-width: 90%;
+                        column-width: 90%;
+                -o-text-overflow: ellipsis;
+                   text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                text-align: justify; }
+          .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification {
+            border: 2px solid #fff;
+            -webkit-border-radius: 20px;
+                    border-radius: 20px;
+            width: 200px;
+            height: 60px;
+            margin: auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            z-index: 6;
+            -webkit-transition: 0.3s ease;
+            -o-transition: 0.3s ease;
+            transition: 0.3s ease;
+            opacity: 0;
+            background-color: #444;
+            pointer-events: none;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-shadow: 0 5px 0 0 #222;
+                    box-shadow: 0 5px 0 0 #222; }
+            .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like {
+              width: 100px;
+              height: 30px;
+              -webkit-border-radius: 15px;
+                      border-radius: 15px;
+              background-image: url("../../../../img/UI-Items/main/item-like-hover.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 25px 25px;
+                      background-size: 25px 25px;
+              background-position: 8px 2.5px;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s; }
+              .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like p, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like p, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-like p {
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
+                padding: 5px;
+                margin: 0;
+                margin-left: 30px;
+                font-family: Play;
+                font-size: 18px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center; }
+            .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view {
+              width: 100px;
+              height: 30px;
+              -webkit-border-radius: 15px;
+                      border-radius: 15px;
+              background-image: url("../../../../img/UI-Items/main/item-view-hover.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 25px 25px;
+                      background-size: 25px 25px;
+              background-position: 8px 2.5px;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s; }
+              .wrapper .main .main-content .main-content-artcileitems .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view p, .wrapper .main .main-content .main-content-frarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view p, .wrapper .main .main-content .main-content-myarticle .article-cont .main-content-grid-items-elements-area-item .main-content-grid-items-elements-area-item-notification .main-content-grid-items-elements-area-item-notification-view p {
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
+                padding: 5px;
+                margin: 0;
+                margin-left: 30px;
+                font-family: Play;
+                font-size: 18px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center; }
+
+.wrapper .hidden-forumadd {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .wrapper .hidden-forumadd .hidden-forumadd-block {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10% auto;
+    padding: 20px;
+    width: 0%;
+    min-height: none;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s; }
+    .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont {
+      width: 85%;
+      height: 500px;
+      margin: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      background-color: #f0f0f0;
+      -webkit-border-radius: 15px;
+              border-radius: 15px; }
+      .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-article {
+        width: 100%;
+        height: auto; }
+        .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-article p {
+          padding: 10px;
+          margin: 0;
+          font-size: 24px;
+          font-family: Play;
+          text-align: center;
+          font-weight: bold;
+          color: #000; }
+      .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info {
+        width: 90%;
+        height: auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 50px auto; }
+        .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs {
+          width: 95%; }
+          .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(1) {
+              width: 70%;
+              height: 30px;
+              margin: 15px 15px 15px 22px;
+              outline: none;
+              border: 0;
+              padding: 5px 5px 5px 30px;
+              background-color: #f0f0f0;
+              border-bottom: 2px solid #444;
+              font-family: Play;
+              font-size: 14px;
+              color: #444;
+              font-weight: bold;
+              background-image: url("../../../../img/UI-Items/main/edit.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 20px 20px;
+                      background-size: 20px 20px;
+              background-position: left center;
+              -webkit-transition: 0.6s;
+              -o-transition: 0.6s;
+              transition: 0.6s; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(1):hover {
+                padding: 5px 5px 5px 0;
+                background-image: url("../../../../img/UI-Items/main/edit (2).png");
+                background-position: right center;
+                border-bottom: 2px solid #fff; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(1):focus {
+                padding: 5px 5px 5px 0;
+                background-image: url("../../../../img/UI-Items/main/edit (1).png");
+                background-position: right center;
+                border-bottom: 2px solid #f54747; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(2) {
+              width: 30%;
+              height: 30px;
+              margin: 15px 15px 15px 22px;
+              outline: none;
+              border: 0;
+              padding: 5px 5px 5px 30px;
+              background-color: #f0f0f0;
+              border-bottom: 2px solid #444;
+              font-family: Play;
+              font-size: 14px;
+              color: #444;
+              font-weight: bold;
+              background-image: url("../../../../img/UI-Items/main/assistance.png");
+              background-repeat: no-repeat;
+              -webkit-background-size: 20px 20px;
+                      background-size: 20px 20px;
+              background-position: left center;
+              -webkit-transition: 0.6s;
+              -o-transition: 0.6s;
+              transition: 0.6s; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(2):hover {
+                width: 30%;
+                padding: 5px 5px 5px 0;
+                background-image: url("../../../../img/UI-Items/main/assistance (2).png");
+                background-position: right center;
+                border-bottom: 2px solid #fff; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .top-inputs input[type=text]:nth-child(2):focus {
+                width: 30%;
+                padding: 5px 5px 5px 0;
+                background-image: url("../../../../img/UI-Items/main/assistance (1).png");
+                background-position: right center;
+                border-bottom: 2px solid #f54747; }
+          .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs {
+            width: 100%;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .text-tr {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .text-tr textarea {
+                width: 95%;
+                height: 170px;
+                -webkit-border-top-left-radius: 15px;
+                        border-top-left-radius: 15px;
+                -webkit-border-bottom-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                border: 0;
+                border-bottom: 3px solid #000;
+                outline: none;
+                font-family: Play;
+                font-size: 16px;
+                color: #000;
+                padding: 10px;
+                -webkit-transition: 0.2s;
+                -o-transition: 0.2s;
+                transition: 0.2s;
+                resize: none; }
+                .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .text-tr textarea:focus {
+                  border-bottom: 3px solid #f54747; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .code-tr {
+              width: 30%;
+              display: none;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .code-tr textarea {
+                width: 95%;
+                height: 170px;
+                -webkit-border-top-left-radius: 15px;
+                        border-top-left-radius: 15px;
+                -webkit-border-bottom-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                border: 0;
+                border-bottom: 3px solid #000;
+                outline: none;
+                font-family: Courier New;
+                font-size: 11px;
+                font-weight: bold;
+                color: #000;
+                padding: 10px;
+                -webkit-transition: 0.2s;
+                -o-transition: 0.2s;
+                transition: 0.2s;
+                resize: none;
+                overflow-y: scroll; }
+                .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .middle-inputs .code-tr textarea:focus {
+                  border-bottom: 3px solid #f54747; }
+          .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .footer-inputs {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .footer-inputs input[type=submit] {
+              height: 40px;
+              -webkit-border-radius: 15px;
+                      border-radius: 15px;
+              border: 0;
+              margin: 10px;
+              background-color: #444;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s;
+              -webkit-box-shadow: 0 2px 1px 0 #ccc;
+                      box-shadow: 0 2px 1px 0 #ccc;
+              width: 100px;
+              padding: 10px;
+              outline: none;
+              font-family: Play;
+              font-size: 14px;
+              color: #fff;
+              font-weight: bold;
+              transition: 0.2s; }
+              .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-inputs .footer-inputs input[type=submit]:hover {
+                cursor: pointer;
+                background-color: #363636;
+                -webkit-box-shadow: 0 2px 1px 0 #f54747;
+                        box-shadow: 0 2px 1px 0 #f54747;
+                color: #f54747;
+                -webkit-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                        transform: scale(1.1); }
+        .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-opt {
+          margin-top: 85px; }
+          .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-opt .btn-pic {
+            height: 40px;
+            -webkit-border-radius: 15px;
+                    border-radius: 15px;
+            border: 0;
+            margin: 10px;
+            background-color: #444;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+            -webkit-box-shadow: 0 2px 1px 0 #ccc;
+                    box-shadow: 0 2px 1px 0 #ccc;
+            width: 40px;
+            outline: none;
+            font-family: Play;
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.2s;
+            background-image: url("../../../../img/UI-Items/main/picture.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px 20px;
+                    background-size: 20px 20px;
+            background-position: center; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-opt .btn-pic:hover {
+              cursor: pointer;
+              background-color: #363636;
+              -webkit-box-shadow: 0 2px 1px 0 #f54747;
+                      box-shadow: 0 2px 1px 0 #f54747;
+              color: #f54747;
+              background-image: url("../../../../img/UI-Items/main/picture (1).png");
+              -webkit-transform: scale(1.1);
+                  -ms-transform: scale(1.1);
+                      transform: scale(1.1); }
+          .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-opt .btn-code {
+            height: 40px;
+            -webkit-border-radius: 15px;
+                    border-radius: 15px;
+            border: 0;
+            margin: 10px;
+            background-color: #444;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+            -webkit-box-shadow: 0 2px 1px 0 #ccc;
+                    box-shadow: 0 2px 1px 0 #ccc;
+            width: 40px;
+            outline: none;
+            font-family: Play;
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.2s;
+            background-image: url("../../../../img/UI-Items/main/code.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px 20px;
+                    background-size: 20px 20px;
+            background-position: center; }
+            .wrapper .hidden-forumadd .hidden-forumadd-block .hidden-forumadd-block-cont .hidden-forumadd-block-cont-info .hidden-forumadd-block-cont-opt .btn-code:hover {
+              cursor: pointer;
+              background-color: #363636;
+              -webkit-box-shadow: 0 2px 1px 0 #f54747;
+                      box-shadow: 0 2px 1px 0 #f54747;
+              color: #f54747;
+              background-image: url("../../../../img/UI-Items/main/code (1).png");
+              -webkit-transform: scale(1.1);
+                  -ms-transform: scale(1.1);
+                      transform: scale(1.1); }
+
+.wrapper .main-content-myforum-begincont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .wrapper .main-content-myforum-begincont .main-content-myarticle-p {
+    width: auto;
+    padding: 30px 30px 30px 40px;
+    margin: 0;
+    font-size: 24px;
+    font-family: Play;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    background-image: url("../../../../img/UI-Items/main/item-like.png");
+    -webkit-background-size: 24px 24px;
+            background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-transform: uppercase; }
+  .wrapper .main-content-myforum-begincont .main-content-myforum-img {
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    padding: 5px;
+    border-top: 3px solid #222;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    background-color: #f0f0f0;
+    background-image: url("../../../../img/UI-Items/all/up-item-hover.png");
+    -webkit-background-size: 20px 20px;
+            background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .wrapper .main-content-myforum-begincont .main-content-myforum-img:hover {
+      -webkit-transform: rotate(0deg) scale(0.9);
+          -ms-transform: rotate(0deg) scale(0.9);
+              transform: rotate(0deg) scale(0.9);
+      cursor: pointer;
+      background-color: #222;
+      background-image: url("../../../../img/UI-Items/all/up-item.png");
+      border-color: #f54747; }
+
+.wrapper .hidden-myforum {
+  font-weight: bold;
+  font-family: Play;
+  font-size: 20px; }
+
+.wrapper .main-content-frforum-begincont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .wrapper .main-content-frforum-begincont .main-content-frarticle-p {
+    width: auto;
+    padding: 30px 30px 30px 40px;
+    margin: 0;
+    font-size: 24px;
+    font-family: Play;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    background-image: url("../../../../img/UI-Items/main/item-feature.png");
+    -webkit-background-size: 24px 24px;
+            background-size: 24px 24px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-transform: uppercase; }
+  .wrapper .main-content-frforum-begincont .main-content-frforum-img {
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    padding: 5px;
+    border-top: 3px solid #222;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    background-color: #f0f0f0;
+    background-image: url("../../../../img/UI-Items/all/up-item-hover.png");
+    -webkit-background-size: 20px 20px;
+            background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .wrapper .main-content-frforum-begincont .main-content-frforum-img:hover {
+      -webkit-transform: rotate(0deg) scale(0.9);
+          -ms-transform: rotate(0deg) scale(0.9);
+              transform: rotate(0deg) scale(0.9);
+      cursor: pointer;
+      background-color: #222;
+      background-image: url("../../../../img/UI-Items/all/up-item.png");
+      border-color: #f54747; }
+
+.wrapper .hidden-frforum {
+  font-weight: bold;
+  font-family: Play;
+  font-size: 20px; }
+
+.wrapper .main-content-myforum-begincont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .wrapper .main-content-myforum-begincont .main-content-articleitems-p {
+    width: auto;
+    padding: 30px 30px 30px 40px;
+    margin: 0;
+    font-size: 24px;
+    font-family: Play;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    background-image: url("../../../../img/UI-Items/main/item-send.png");
+    -webkit-background-size: 24px 24px;
+            background-size: 24px 24px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-transform: uppercase; }
+
+.wrapper .hidden-forumitems {
+  font-weight: bold;
+  font-family: Play;
+  font-size: 20px; }

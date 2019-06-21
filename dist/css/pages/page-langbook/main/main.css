@@ -1,0 +1,701 @@
+.wrapper .main {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 1; }
+  .wrapper .main .main-content {
+    width: 100%;
+    min-height: none; }
+  .wrapper .main .main-content-grid {
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .wrapper .main .main-content-grid .main-content-grid-left {
+      width: 47%;
+      min-height: none; }
+      .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item {
+        width: 650px;
+        height: 200px;
+        float: right;
+        margin-bottom: 200px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-text {
+          width: 430px;
+          margin-right: 20px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          height: 200px;
+          -webkit-border-top-left-radius: 15px;
+                  border-top-left-radius: 15px;
+          -webkit-border-bottom-left-radius: 15px;
+                  border-bottom-left-radius: 15px;
+          -webkit-border-top-right-radius: 50px;
+                  border-top-right-radius: 50px;
+          -webkit-border-bottom-right-radius: 50px;
+                  border-bottom-right-radius: 50px;
+          -webkit-box-shadow: 0 5px 0 0 #ccc;
+                  box-shadow: 0 5px 0 0 #ccc;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background-color: #444; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-text p {
+            font-size: 18px;
+            color: #fff;
+            font-family: Play;
+            text-align: justify;
+            margin: 20px; }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo {
+          width: 180px;
+          height: 180px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          background-color: #ccc;
+          border: 10px solid #444;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+          -webkit-box-shadow: 0 0 0 0 #222;
+                  box-shadow: 0 0 0 0 #222; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-1 {
+            background-image: url("../../../../img/UI-Items/main/html-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-2 {
+            background-image: url("../../../../img/UI-Items/main/css-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-3 {
+            background-image: url("../../../../img/UI-Items/main/js-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-4 {
+            background-image: url("../../../../img/UI-Items/main/nodejs-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-5 {
+            background-image: url("../../../../img/UI-Items/main/mysql-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-6 {
+            background-image: url("../../../../img/UI-Items/main/php-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-7 {
+            background-image: url("../../../../img/UI-Items/main/ruby-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-8 {
+            background-image: url("../../../../img/UI-Items/main/python-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-9 {
+            background-image: url("../../../../img/UI-Items/main/c-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-1:hover {
+          border-color: #ef652a;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #ef652a;
+                  box-shadow: 0 0 50px 0px #ef652a;
+          -webkit-transform: scale(0.9) rotate(30deg);
+              -ms-transform: scale(0.9) rotate(30deg);
+                  transform: scale(0.9) rotate(30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-3:hover {
+          border-color: #fdda3e;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #fdda3e;
+                  box-shadow: 0 0 50px 0px #fdda3e;
+          -webkit-transform: scale(0.9) rotate(30deg);
+              -ms-transform: scale(0.9) rotate(30deg);
+                  transform: scale(0.9) rotate(30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-5:hover {
+          border-color: #2299e1;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #2299e1;
+                  box-shadow: 0 0 50px 0px #2299e1;
+          -webkit-transform: scale(0.9) rotate(30deg);
+              -ms-transform: scale(0.9) rotate(30deg);
+                  transform: scale(0.9) rotate(30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-7:hover {
+          border-color: #b11304;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #b11304;
+                  box-shadow: 0 0 50px 0px #b11304;
+          -webkit-transform: scale(0.9) rotate(30deg);
+              -ms-transform: scale(0.9) rotate(30deg);
+                  transform: scale(0.9) rotate(30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-left .main-content-grid-left-item .main-content-grid-left-item-logo-9:hover {
+          border-color: #649ad2;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #649ad2;
+                  box-shadow: 0 0 50px 0px #649ad2;
+          -webkit-transform: scale(0.9) rotate(30deg);
+              -ms-transform: scale(0.9) rotate(30deg);
+                  transform: scale(0.9) rotate(30deg); }
+    .wrapper .main .main-content-grid .main-content-grid-middle {
+      width: 6%;
+      height: 1700px;
+      background-image: url("../../../../img/UI-Items/main/line.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: 5px 1600px;
+              background-size: 5px 1600px;
+      background-position: center 100px; }
+      .wrapper .main .main-content-grid .main-content-grid-middle .main-content-grid-middle-line {
+        width: 3px;
+        height: 1600px;
+        margin: 0 auto;
+        background-color: #444; }
+      .wrapper .main .main-content-grid .main-content-grid-middle .main-content-grid-middle-line-circle {
+        width: 15px;
+        height: 15px;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        background-color: #f54747;
+        margin: 0 auto;
+        margin-top: 92px;
+        margin-bottom: 185px; }
+        .wrapper .main .main-content-grid .main-content-grid-middle .main-content-grid-middle-line-circle:nth-child(9) {
+          margin-bottom: 0; }
+    .wrapper .main .main-content-grid .main-content-grid-right {
+      width: 47%;
+      min-height: none; }
+      .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item {
+        width: 650px;
+        height: 200px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        float: left;
+        margin-top: 200px; }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-text {
+          width: 430px;
+          margin-left: 20px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          height: 200px;
+          -webkit-border-top-left-radius: 50px;
+                  border-top-left-radius: 50px;
+          -webkit-border-bottom-left-radius: 50px;
+                  border-bottom-left-radius: 50px;
+          -webkit-border-top-right-radius: 15px;
+                  border-top-right-radius: 15px;
+          -webkit-border-bottom-right-radius: 15px;
+                  border-bottom-right-radius: 15px;
+          -webkit-box-shadow: 0 5px 0 0 #444;
+                  box-shadow: 0 5px 0 0 #444;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background-color: #f0f0f0; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-text p {
+            font-size: 18px;
+            font-family: Play;
+            text-align: justify;
+            margin: 20px; }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo {
+          width: 180px;
+          height: 180px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          background-color: #ccc;
+          border: 10px solid #444;
+          -webkit-box-shadow: 0 0 0 0 #649ad2;
+                  box-shadow: 0 0 0 0 #649ad2;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-1 {
+            background-image: url("../../../../img/UI-Items/main/html-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-2 {
+            background-image: url("../../../../img/UI-Items/main/css-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-3 {
+            background-image: url("../../../../img/UI-Items/main/js-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-4 {
+            background-image: url("../../../../img/UI-Items/main/nodejs-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-5 {
+            background-image: url("../../../../img/UI-Items/main/mysql-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-6 {
+            background-image: url("../../../../img/UI-Items/main/php-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-7 {
+            background-image: url("../../../../img/UI-Items/main/ruby-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-8 {
+            background-image: url("../../../../img/UI-Items/main/python-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-9 {
+            background-image: url("../../../../img/UI-Items/main/c-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-2:hover {
+          border-color: #0170ba;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #0170ba;
+                  box-shadow: 0 0 50px 0px #0170ba;
+          -webkit-transform: scale(0.9) rotate(-30deg);
+              -ms-transform: scale(0.9) rotate(-30deg);
+                  transform: scale(0.9) rotate(-30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-4:hover {
+          border-color: #8cc84b;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #8cc84b;
+                  box-shadow: 0 0 50px 0px #8cc84b;
+          -webkit-transform: scale(0.9) rotate(-30deg);
+              -ms-transform: scale(0.9) rotate(-30deg);
+                  transform: scale(0.9) rotate(-30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-6:hover {
+          border-color: #5b66a4;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #5b66a4;
+                  box-shadow: 0 0 50px 0px #5b66a4;
+          -webkit-transform: scale(0.9) rotate(-30deg);
+              -ms-transform: scale(0.9) rotate(-30deg);
+                  transform: scale(0.9) rotate(-30deg); }
+        .wrapper .main .main-content-grid .main-content-grid-right .main-content-grid-right-item .main-content-grid-right-item-logo-8:hover {
+          border-color: #3771a1;
+          background-color: #444;
+          cursor: pointer;
+          -webkit-box-shadow: 0 0 50px 0px #3771a1;
+                  box-shadow: 0 0 50px 0px #3771a1;
+          -webkit-transform: scale(0.9) rotate(-30deg);
+              -ms-transform: scale(0.9) rotate(-30deg);
+                  transform: scale(0.9) rotate(-30deg); }
+
+.wrapper .main-content-iteminfo {
+  width: 93%;
+  min-height: none;
+  margin: auto;
+  margin-top: 50px; }
+  .wrapper .main-content-iteminfo .main-content-iteminfo-item {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 200px; }
+    .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container {
+      width: 100%;
+      height: 700px;
+      min-height: none;
+      background-color: #f0f0f0;
+      -webkit-border-radius: 15px;
+              border-radius: 15px;
+      -webkit-box-shadow: 0 5px 0 0 #000;
+              box-shadow: 0 5px 0 0 #000;
+      scroll-behavior: smooth; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-1 {
+        -webkit-box-shadow: 0 5px 0px 0 #ef652a;
+                box-shadow: 0 5px 0px 0 #ef652a; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-2 {
+        -webkit-box-shadow: 0 5px 0px 0 #0170ba;
+                box-shadow: 0 5px 0px 0 #0170ba; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-3 {
+        -webkit-box-shadow: 0 5px 0px 0 #fdda3e;
+                box-shadow: 0 5px 0px 0 #fdda3e; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-4 {
+        -webkit-box-shadow: 0 5px 0px 0 #8cc84b;
+                box-shadow: 0 5px 0px 0 #8cc84b; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-5 {
+        -webkit-box-shadow: 0 5px 0px 0 #2299e1;
+                box-shadow: 0 5px 0px 0 #2299e1; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-6 {
+        -webkit-box-shadow: 0 5px 0px 0 #5b66a4;
+                box-shadow: 0 5px 0px 0 #5b66a4; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-7 {
+        -webkit-box-shadow: 0 5px 0px 0 #b11304;
+                box-shadow: 0 5px 0px 0 #b11304; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-8 {
+        -webkit-box-shadow: 0 5px 0px 0 #3771a1;
+                box-shadow: 0 5px 0px 0 #3771a1; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header-9 {
+        -webkit-box-shadow: 0 5px 0px 0 #649ad2;
+                box-shadow: 0 5px 0px 0 #649ad2; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header {
+        -webkit-border-radius: 15px;
+                border-radius: 15px;
+        height: 130px;
+        background-color: #444;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-1 {
+          -webkit-box-shadow: 0 5px 0px 0 #ef652a;
+                  box-shadow: 0 5px 0px 0 #ef652a; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-2 {
+          -webkit-box-shadow: 0 5px 0px 0 #0170ba;
+                  box-shadow: 0 5px 0px 0 #0170ba; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-3 {
+          -webkit-box-shadow: 0 5px 0px 0 #fdda3e;
+                  box-shadow: 0 5px 0px 0 #fdda3e; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-4 {
+          -webkit-box-shadow: 0 5px 0px 0 #8cc84b;
+                  box-shadow: 0 5px 0px 0 #8cc84b; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-5 {
+          -webkit-box-shadow: 0 5px 0px 0 #2299e1;
+                  box-shadow: 0 5px 0px 0 #2299e1; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-6 {
+          -webkit-box-shadow: 0 5px 0px 0 #5b66a4;
+                  box-shadow: 0 5px 0px 0 #5b66a4; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-7 {
+          -webkit-box-shadow: 0 5px 0px 0 #b11304;
+                  box-shadow: 0 5px 0px 0 #b11304; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-8 {
+          -webkit-box-shadow: 0 5px 0px 0 #3771a1;
+                  box-shadow: 0 5px 0px 0 #3771a1; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-9 {
+          -webkit-box-shadow: 0 5px 0px 0 #649ad2;
+                  box-shadow: 0 5px 0px 0 #649ad2; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle {
+          position: relative;
+          top: -70px;
+          left: 20px;
+          width: 190px;
+          height: 190px;
+          border: 10px solid #444;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          background-color: #f0f0f0;
+          margin: 15px; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-1 {
+            background-image: url("../../../../img/UI-Items/main/html-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-2 {
+            background-image: url("../../../../img/UI-Items/main/css-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-3 {
+            background-image: url("../../../../img/UI-Items/main/js-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-4 {
+            background-image: url("../../../../img/UI-Items/main/nodejs-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-5 {
+            background-image: url("../../../../img/UI-Items/main/mysql-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-6 {
+            background-image: url("../../../../img/UI-Items/main/php-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-7 {
+            background-image: url("../../../../img/UI-Items/main/ruby-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-8 {
+            background-image: url("../../../../img/UI-Items/main/python-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-circle-9 {
+            background-image: url("../../../../img/UI-Items/main/c-logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 120px 120px;
+                    background-size: 120px 120px;
+            background-position: center;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-name {
+          width: 70%;
+          margin-left: 20px; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-name p {
+            font-size: 40px;
+            font-family: Play;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            text-align: justify; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-testbutton {
+          width: 10%; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-testbutton .main-content-iteminfo-item-container-header-testbutton-click {
+            width: 70px;
+            height: 70px;
+            background-color: #222;
+            border: 4px solid #f0f0f0;
+            float: right;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+            background-image: url("../../../../img/UI-Items/menu/item-test.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: 32px 32px;
+                    background-size: 32px 32px;
+            background-position: center; }
+            .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-header .main-content-iteminfo-item-container-header-testbutton .main-content-iteminfo-item-container-header-testbutton-click:hover {
+              cursor: pointer;
+              background-image: url("../../../../img/UI-Items/menu/item-test-hover.png");
+              -webkit-transform: scale(1.05) rotate(15deg);
+                  -ms-transform: scale(1.05) rotate(15deg);
+                      transform: scale(1.05) rotate(15deg);
+              border-color: #f54747; }
+      .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main {
+        width: 95%;
+        margin: 35px auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column {
+          width: 100%;
+          margin: 0 10px 0 10px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-1 {
+            -webkit-box-shadow: 0 5px 0px 0 #ef652a;
+                    box-shadow: 0 5px 0px 0 #ef652a; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-2 {
+            -webkit-box-shadow: 0 5px 0px 0 #0170ba;
+                    box-shadow: 0 5px 0px 0 #0170ba; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-3 {
+            -webkit-box-shadow: 0 5px 0px 0 #fdda3e;
+                    box-shadow: 0 5px 0px 0 #fdda3e; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-4 {
+            -webkit-box-shadow: 0 5px 0px 0 #8cc84b;
+                    box-shadow: 0 5px 0px 0 #8cc84b; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-5 {
+            -webkit-box-shadow: 0 5px 0px 0 #2299e1;
+                    box-shadow: 0 5px 0px 0 #2299e1; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-6 {
+            -webkit-box-shadow: 0 5px 0px 0 #5b66a4;
+                    box-shadow: 0 5px 0px 0 #5b66a4; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-7 {
+            -webkit-box-shadow: 0 5px 0px 0 #b11304;
+                    box-shadow: 0 5px 0px 0 #b11304; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-8 {
+            -webkit-box-shadow: 0 5px 0px 0 #3771a1;
+                    box-shadow: 0 5px 0px 0 #3771a1; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r-h-9 {
+            -webkit-box-shadow: 0 5px 0px 0 #649ad2;
+                    box-shadow: 0 5px 0px 0 #649ad2; }
+          .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r {
+            width: 200px;
+            height: 80px;
+            background-color: #e6e6e6;
+            margin: 10px;
+            -webkit-border-radius: 10px;
+                    border-radius: 10px;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s; }
+            .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r:hover {
+              background-color: #ccc;
+              cursor: pointer;
+              -webkit-transform: scale(1.03);
+                  -ms-transform: scale(1.03);
+                      transform: scale(1.03); }
+            .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r:hover p {
+              color: #f54747; }
+            .wrapper .main-content-iteminfo .main-content-iteminfo-item .main-content-iteminfo-item-container .main-content-iteminfo-item-container-main .main-content-iteminfo-item-container-main-column .main-content-iteminfo-item-container-main-r p {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              font-size: 16px;
+              padding: 0;
+              margin: 0;
+              width: 100%;
+              height: 100%;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              text-align: center;
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
+              transition: 0.2s;
+              font-family: Play; }
